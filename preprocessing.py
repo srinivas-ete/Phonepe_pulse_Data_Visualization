@@ -10,7 +10,7 @@ from streamlit_option_menu import option_menu
 myconnection=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="srinivas",
+    password="Yourpassword",
     database="phonepe_pulse"
 )
 mycursor=myconnection.cursor(buffered=True)
